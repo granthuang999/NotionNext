@@ -14,7 +14,7 @@ function SiteInfo ({ title }) {
         <footer
             className='relative leading-6 justify-start w-full text-gray-400 text-xs font-sans'
         >
-            <span> © {`${copyrightDate}`} <span> <a href={BLOG.LINK} className='text-gray-500 dark:text-gray-300 '> <i className='mx-1 animate-pulse fas fa-heart'/> {BLOG.AUTHOR}</a>. <br /></span>
+            <span> © {`${copyrightDate}`} <span> <a href={BLOG.LINK} className='text-gray-500 dark:text-gray-300 '> <i className='mx-1 animate-pulse fas fa-heart'/> {BLOG.AUTHOR}</a>,All rights reserved. <br /></span>
 
             {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{BLOG.BEI_AN}</a><br/></>}
 
