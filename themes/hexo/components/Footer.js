@@ -13,15 +13,23 @@ const Footer = ({ title }) => {
   return (
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
-      <i className='fas fa-copyright' /> {`${copyrightDate}`}
+  <div class='legal-links'>
+    <a href='/privacy-policy'>隐私政策 / Privacy Policy</a> |
+    <a href='/terms-of-service'>服务条款 / Terms of Service</a> |
+    <a href='/disclaimer'>免责声明 / Disclaimer</a> |
+    <a href='/about'>关于我们 / About Us</a>
+  </div>
+
+
+    <i className='fas fa-copyright' /> Futuremedia.Work {`${copyrightDate}`}
       <span>
         <i className='mx-1 animate-pulse fas fa-heart' />
         <a
           href={siteConfig('LINK')}
           className='underline font-bold  dark:text-gray-300 '>
           {siteConfig('AUTHOR')}
-        </a>
-        .<br />
+        </a>,保留所有权利 All rights reserved.
+        <br />
         <BeiAnSite />
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
@@ -39,13 +47,7 @@ const Footer = ({ title }) => {
       </span>
       <br />
 
-  <div class='legal-links'>
-    <a href='/privacy-policy'>Privacy Policy</a>   
-    <a href='/terms-of-service'>Terms of Service</a>   
-    <a href='/disclaimer'>Disclaimer</a>   
-    <a href='/about'>About us</a>   
-    <a href='/contact'>Contact us</a>
-  </div>
+
 
 
 
