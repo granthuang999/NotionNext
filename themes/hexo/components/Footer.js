@@ -40,10 +40,10 @@ const Footer = ({ title }) => {
       <br />
 
   <div class='legal-links'>
-    <a href='/privacy-policy'>Privacy Policy</a>
-    <a href='/terms-of-service'>Terms of Service</a>  
-    <a href='/disclaimer'>Disclaimer</a>
-    <a href='/about'>About us</a>
+    <a href='/privacy-policy'>Privacy Policy</a>   
+    <a href='/terms-of-service'>Terms of Service</a>   
+    <a href='/disclaimer'>Disclaimer</a>   
+    <a href='/about'>About us</a>   
     <a href='/contact'>Contact us</a>
   </div>
 
