@@ -164,7 +164,8 @@ const SEO = props => {
         </>
       )}
       {children}
-    </Head>
+<script src='https://analytics.ahrefs.com/analytics.js' data-key='em/p7escDAAAL6cCpoQp3w' async></script>
+  </Head>
   )
 }
 
